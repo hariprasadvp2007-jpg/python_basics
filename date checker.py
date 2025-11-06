@@ -15,8 +15,6 @@ def is_valid_date(date_str):
     except ValueError:
         print(f"{date_str} is not a valid date format or invalid date")
 
-
-
 date_input = input("Enter a date (dd-mm-yyyy) : ")
 is_valid_date(date_input)
 
